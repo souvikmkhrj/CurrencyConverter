@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* styles.css */
+
+@keyframes colorChange {
+    0% {
+      background-color: #2563eb; /* Initial color (blue) */
+    }
+    50% {
+      background-color: #fc8181; /* Midway color (red) */
+    }
+    100% {
+      background-color: #2563eb; /* Final color (back to blue) */
+    }
+  }
+  
